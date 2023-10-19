@@ -3,9 +3,9 @@
 - [Assignment 1.2.2 - RegEx](#assignment-122---regex)
   - [Before You Start](#before-you-start)
     - [Don't panic!](#dont-panic)
-    - [Short Answers](#short-answers)
     - [Resources](#resources)
     - [Interpreters](#interpreters)
+- [Short Answers](#short-answers)
 - [Problems 1-9: `RegEx.test()`](#problems-1-9-regextest)
   - [Question 1: HelloWorldRegex](#question-1-helloworldregex)
   - [Question 2: hasAVowel](#question-2-hasavowel)
@@ -41,10 +41,6 @@ Welcome to RegEx! It's a cool tool that you can use to make string processing a 
 
 Don't freak out at the number of questions, they're all pretty short. Some don't even take 50 characters to type out, every `from-scratch.js` function can be done in 1 line. RegEx is _super_ powerful,
 
-### Short Answers
-
-Be sure to complete them!
-
 ### Resources
 
 - [Marcy Cheat Sheet](https://github.com/The-Marcy-Lab-School/1-2-2-cheat-sheet_regex)
@@ -58,6 +54,10 @@ Be sure to complete them!
 
 - [scriptular - a simple RegEx tester](https://scriptular.com)
 - [Regexr.com - a more in depth RegEx tester](https://regexr.com)
+
+# Short Answers
+
+Be sure to complete them!
 
 # Problems 1-9: `RegEx.test()`
 
