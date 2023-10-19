@@ -25,63 +25,6 @@ const testSuiteName = 'From Scratch Tests';
 const scoresDir = path.join(__dirname, '..', 'scores');
 const scoreCounter = new ScoreCounter(testSuiteName, scoresDir);
 
-/*
-const helloWorldRegex = (str) => /hello world/i.test(str);
-
-hasAVowel = (str) => /[aeiou]/i.test(str);
-
-const hasNoFlippers = (str) => /[^BCcDEHIKOoXxl]/.test(str);
-
-const hasCatsOrDogs = (str) => /(cats|dogs)/i.test(str);
-
-const hasVowelStart = (str) => /^[aeiou]/i.test(str);
-
-const hasPunctuationEnd = (str) => /[\.?!]$/.test(str);
-
-const hasNothingOrDigits = (str) => /^\d*$/.test(str);
-
-const isValidEmail = (str) => /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/.test(str);
-
-const isValidPhoneNumber = (str) => /^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}$/.test(str);
-/*
-123-456-7890
-(123) 456-7890
-123 456 7890
-123.456.7890
-const matchAllNumbers = (str) => str.match(/\d+/g) || [];
-
-const matchAllNumbersAsNumbers = (str) => matchAllNumbers(str).map(Number);
-
-const matchAllWords = (str) => str.match(/[a-zA-Z']+/g) || [];
-
-const replaceAllNumbers = (str) => str.replace(/\d+/g, '???');
-
-const fixFileName = (str) => str.replace(/\s+/g, '_');
-
-const nameRedacter = (str) => str.replace(/\b[A-Z]{2,}\b/g, 'REDACTED');
-
-module.exports = {
-  helloWorldRegex,
-  hasAVowel,
-  hasNoFlippers,
-  hasCatsOrDogs,
-  hasVowelStart,
-  hasPunctuationEnd,
-  hasNothingOrDigits,
-  isValidEmail,
-  isValidPhoneNumber,
-
-  matchAllNumbers,
-  matchAllNumbersAsNumbers,
-  matchAllWords,
-
-  replaceAllNumbers,
-  fixFileName,
-  nameRedacter,
-};
-
-*/
-
 describe(testSuiteName, () => {
   it('helloWorldRegex - if the string contains "hello world" regardless of case it returns true', () => {
     expect(helloWorldRegex('Hello world')).toBeTruthy();
