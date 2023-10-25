@@ -1,7 +1,7 @@
 {
   "idToTestNameHash": {
     "DeTe1": "Debug Tests isValidCompanyUsername - correctly checks if an employee has a valid username",
-    "MoTe1": "Modify Tests swapAllCases - swaps all letter cases in string using regex properly",
+    "MoTe1": "Modify Tests swapAllCases - swaps all letter cases in string using regex properly and toUpper/LowerCase once each",
     "FrScTe1": "From Scratch Tests helloWorldRegex - if the string contains \"hello world\" regardless of case it returns true",
     "FrScTe2": "From Scratch Tests hasAVowel - if the string contains a vowel regardless of case it returns true",
     "FrScTe3": "From Scratch Tests hasCatsOrDogs - if the string contains \"cats\" or \"dogs\" regardless of case it returns true",
@@ -21,7 +21,7 @@
   },
   "testNameToIdHash": {
     "Debug Tests isValidCompanyUsername - correctly checks if an employee has a valid username": "DeTe1",
-    "Modify Tests swapAllCases - swaps all letter cases in string using regex properly": "MoTe1",
+    "Modify Tests swapAllCases - swaps all letter cases in string using regex properly and toUpper/LowerCase once each": "MoTe1",
     "From Scratch Tests helloWorldRegex - if the string contains \"hello world\" regardless of case it returns true": "FrScTe1",
     "From Scratch Tests hasAVowel - if the string contains a vowel regardless of case it returns true": "FrScTe2",
     "From Scratch Tests hasCatsOrDogs - if the string contains \"cats\" or \"dogs\" regardless of case it returns true": "FrScTe3",

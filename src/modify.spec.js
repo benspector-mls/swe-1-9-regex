@@ -14,7 +14,7 @@ const swapAllCases = (str) => {
 */
 
 describe(testSuiteName, () => {
-  it('swapAllCases - swaps all letter cases in string using regex properly', () => {
+  it('swapAllCases - swaps all letter cases in string using regex properly and toUpper/LowerCase once each', () => {
     expect(swapAllCases('Hello')).toEqual('hELLO');
     expect(swapAllCases('hELLO')).toEqual('Hello');
     expect(swapAllCases('Now What?')).toEqual('nOW wHAT?');

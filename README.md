@@ -30,7 +30,7 @@
 - [Debug](#debug)
   - [Question 17: isValidCompanyUsername](#question-17-isvalidcompanyusername)
 - [Modify](#modify)
-  - [Question 18: swapCases](#question-18-swapcases)
+  - [Question 18: swapAllCases](#question-18-swapallcases)
 - [Bonus](#bonus)
 
 ## Before You Start
@@ -298,11 +298,13 @@ So it looks like we're using a dynamic regex here and we're building it out with
 
 Oh dear, it looks like the functions written in `modify.js` are written without RegEx. Let's fix that! The tests need to pass, make sure to keep checking them.
 
-## Question 18: swapCases
+## Question 18: swapAllCases
 
 It looks like this function is trying to swap the cases of all the letters in a string. But it's doing it _so_ clunky. Checking the case of the letter by comparing if it's the same as the uppercase version of itself? More importantly, we don't need a loop and new string if we just use replace _properly_. Remember the callback function from above? You'll need it!
 
 The test is going to check to see that you only use `toUpperCase` and `toLowerCase` only once _each_ for the entire function. If you use it more than that, you're not using RegEx efficiently!
+
+To be clear, make sure you delete the existing code, if you comment it out, the commented methods will get picked up and you'll fail the test (also no using the `match === match.uppercase()` trick, we have regex now)!
 
 ---
 
