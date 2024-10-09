@@ -1,6 +1,6 @@
 const path = require('path');
 const ScoreCounter = require('score-tests');
-const { swapAllCases } = require('./modify');
+const { swapAllCases } = require('../src/modify');
 
 const testSuiteName = 'Modify Tests';
 const scoresDir = path.join(__dirname, '..', 'scores');

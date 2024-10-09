@@ -1,6 +1,6 @@
 const path = require('path');
 const ScoreCounter = require('score-tests');
-const { isValidCompanyUsername } = require('./debug');
+const { isValidCompanyUsername } = require('../src/debug');
 
 const testSuiteName = 'Debug Tests';
 const scoresDir = path.join(__dirname, '..', 'scores');
